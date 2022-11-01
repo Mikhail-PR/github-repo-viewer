@@ -1,0 +1,11 @@
+.button {
+  @apply
+  bg-gray-100
+  border
+  h-10
+  w-fit
+  px-4
+  bg-gray-50
+  hover:bg-green-50
+  disabled:bg-gray-100;
+}

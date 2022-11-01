@@ -1,0 +1,42 @@
+.repoPage {
+  @apply
+  flex
+  flex-col
+  justify-start
+  text-center
+  h-screen
+  py-5
+  px-20;
+}
+
+.backBtn {
+  @apply
+  self-start
+  fixed;
+}
+
+.loader {
+  @apply
+  flex
+  h-screen
+  items-center
+  justify-center;
+}
+
+.error {
+  @apply
+  text-red-500
+  text-2xl;
+}
+
+.alert {
+  @apply
+  text-2xl;
+}
+
+.title {
+  @apply
+  text-3xl
+  font-semibold
+  mb-20;
+}

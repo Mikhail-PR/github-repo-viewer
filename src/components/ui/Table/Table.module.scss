@@ -1,0 +1,48 @@
+.table {
+  @apply
+  h-96;
+}
+
+.header {
+  @apply
+  grid
+  grid-cols-autoFit
+  text-2xl
+  font-semibold
+  py-4
+  pr-2
+  border-2
+  border-b-0;
+}
+
+.listWrapper {
+  @apply
+  h-96;
+}
+
+.list {
+  @apply
+  border-2;
+
+  &::-webkit-scrollbar-thumb {
+    @apply
+    bg-gray-400
+    rounded
+    cursor-pointer;
+  }
+
+  &::-webkit-scrollbar {
+    @apply
+    w-2
+    bg-transparent;
+  }
+}
+
+.row {
+  @apply
+  grid
+  grid-cols-autoFit
+  content-center
+  hover:bg-green-50
+  cursor-pointer;
+}

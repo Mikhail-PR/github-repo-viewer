@@ -1,0 +1,32 @@
+.homePage {
+  @apply
+  grid
+  grid-cols-1
+  grid-rows-2
+  justify-center
+  h-screen
+  px-20
+  gap-4
+  content-center
+  text-center;
+}
+
+.form {
+  @apply
+  flex
+  items-center
+  justify-center
+  gap-4
+  w-full;
+}
+
+.loader {
+  @apply
+  justify-self-center;
+}
+
+.error {
+  @apply
+  text-red-500
+  text-2xl;
+}
